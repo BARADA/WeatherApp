@@ -1,0 +1,29 @@
+.info .checkedWeather span{
+    color: #8a8a8a;
+}
+.updateButton{
+    width: 20px;
+}
+.result h3{
+    margin: 0px 0 10px;
+    font-size: 25px;
+}
+.result h3 span{
+    color: #ccc;
+    font-size: 19px;
+}
+.infoResult{
+    border-bottom: 1px dotted #000;
+}
+.infoResult div{
+    display: inline-block;
+    line-height: 28px;
+    padding-top: 11px;
+}
+.infoResult span{
+    font-size:26px;
+    color: #000;
+    line-height: 40px;
+    display: inline-block;
+    float: right;
+}
