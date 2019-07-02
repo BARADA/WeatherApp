@@ -14,7 +14,7 @@ const WeatherContainer = () => {
     let [loading, setLoading] = useState(false);
     let [state, setState] = LocalStorageSave(APIWeather);
 // New request two hours later
-    let twoHours = 7200;
+    let twoHours = 7200000;
     let newDate = Date.parse(new Date());
     let lastDate = Date.parse(state.date) + twoHours;
     let updateWeather = () => {
